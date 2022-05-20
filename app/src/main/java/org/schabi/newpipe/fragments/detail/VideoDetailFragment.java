@@ -514,6 +514,12 @@ public final class VideoDetailFragment
             case R.id.overlay_buttons_layout:
                 bottomSheetBehavior.setState(BottomSheetBehavior.STATE_EXPANDED);
                 break;
+            case R.id.overlay_play_queue_button:
+                final Intent intent = NavigationHelper.getPlayQueueActivityIntent(
+                        player.getContext()
+                );
+                startActivity(intent);
+                break;
             case R.id.overlay_play_pause_button:
                 if (playerIsNotStopped()) {
                     player.playPause();
