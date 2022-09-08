@@ -651,7 +651,6 @@
     <string name="service_provides_reason">%s указывает следующую причину:</string>
     <string name="account_terminated">Аккаунт отключён</string>
     <string name="downloads_storage_use_saf_summary_api_29">Начиная с Android 10 поддерживается только \"Storage Access Framework\"</string>
-    <string name="downloads_storage_use_saf_summary_api_19">\"Storage Access Framework\" не поддерживается на Android KitKat и ниже</string>
     <string name="downloads_storage_ask_summary_no_saf_notice">Спрашивать, куда сохранять каждую загрузку</string>
     <string name="no_dir_yet">Папка для загрузки ещё не выбрана, укажите папку для загрузки сейчас</string>
     <string name="off">Отключить</string>
@@ -719,10 +718,21 @@
     <string name="detail_pinned_comment_view_description">Закреплённый комментарий</string>
     <string name="leak_canary_not_available">LeakCanary недоступна</string>
     <string name="progressive_load_interval_exoplayer_default">Стандартное значение ExoPlayer</string>
-    <string name="progressive_load_interval_summary">Изменить размер интервала загрузки (сейчас %s). Меньшее значение может ускорить начальную загрузку видео. Изменение значения потребует перезапуска плеера.</string>
+    <string name="progressive_load_interval_summary">Изменить размер предварительной загрузки (сейчас %s). Меньшее значение может ускорить загрузку видео. При изменении требуется перезапуск плеера.</string>
     <string name="loading_stream_details">Загрузка деталей трансляции…</string>
     <string name="check_new_streams">Проверить на наличие новых трансляций</string>
     <string name="delete_downloaded_files_confirm">Удалить все загруженные файлы\?</string>
     <string name="settings_category_player_notification_title">Уведомления плеера</string>
     <string name="enumeration_comma">,</string>
+    <string name="semitone">Полутон</string>
+    <string name="percent">Проценты</string>
+    <string name="selected_stream_external_player_not_supported">Выбранная трансляция не поддерживается внешними проигрывателями</string>
+    <string name="no_video_streams_available_for_external_players">Нет ни одного доступного видео потока для внешних проигрывателей</string>
+    <string name="streams_not_yet_supported_removed">Были скрыты трансляции, которые пока ещё не поддерживаются загрузчиком</string>
+    <string name="unknown_format">Неизвестный формат</string>
+    <string name="no_audio_streams_available_for_external_players">Нет ни одного доступного аудио потока для внешних проигрывателей</string>
+    <string name="select_quality_external_players">Выберите качество для внешних проигрывателей</string>
+    <string name="unknown_quality">Неизвестное качество</string>
+    <string name="progressive_load_interval_title">Размер предварительной загрузки</string>
+    <string name="feed_toggle_show_future_items">Показывать будущие видео</string>
 </resources>
